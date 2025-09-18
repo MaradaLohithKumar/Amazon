@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  web :
+     image: "lohithkumar49/notees-app-k8s"
+    ports:
+      - "8000:8000"
